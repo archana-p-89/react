@@ -10,11 +10,10 @@ export default function App() {
   return (
     
     <BrowserRouter>
-      <Routes>
-     
+      <Routes>      
         <Route path="/react" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />                
+          <Route path="/blogs" element={<Blogs />} />                
           
         </Route>
       </Routes>
