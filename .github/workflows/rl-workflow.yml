@@ -39,6 +39,7 @@ jobs:
           publish_dir: ./build
   audit:
     runs-on: ubuntu-latest
+    needs: build
     steps:
     - name: Audit live URL
       uses: jakejarvis/lighthouse-action@master
