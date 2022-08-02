@@ -44,7 +44,7 @@ jobs:
     - name: Audit live URL
       uses: jakejarvis/lighthouse-action@master
       with:
-        entryPoint: 'https://archana-p-89.github.io/react/'
+        url: 'https://archana-p-89.github.io/react/'
     - name: Upload results as an artifact
       uses: actions/upload-artifact@master
       with:
